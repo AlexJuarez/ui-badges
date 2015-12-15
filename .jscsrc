@@ -1,0 +1,8 @@
+{
+  "preset": "google",
+  "validateQuoteMarks": {
+    "mark": "'",
+    "escape": true,
+    "ignoreJSX": true
+  }
+}

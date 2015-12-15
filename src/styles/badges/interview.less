@@ -1,0 +1,88 @@
+@import '../profile-badges';
+
+.badge-interview {
+  position: relative;
+  font-size: 32px;
+  display: inline-block;
+
+  &:hover {
+    cursor: pointer;
+  }
+
+  > * {
+    position: absolute;
+    top: 0;
+    left: 0;
+    line-height: 0;
+    font-size: 1em;
+    width: 1em;
+    padding: 0.5em 0;
+    display: inline-block;
+  }
+
+  .background {
+    color: #f5156f;
+    background: linear-gradient(to bottom, rgba(245,21,111,1) 0%, rgba(168,15,79,1) 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    &:before {
+      content: @interview-1-content;
+    }
+  }
+
+  .shine {
+    background: linear-gradient(-45deg, rgba(0, 0, 0, 0) 25%,
+    rgba(255, 255, 255, 0.5) 50%,
+    rgba(255, 255, 255, 0.5) 50%,
+    rgba(0, 0, 0, 0) 75%);
+    background-size: 400% 400%;
+    animation: shine 1s ease infinite;
+    animation-play-state: paused;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    display: none;
+    &:before {
+      content: @interview-1-content;
+    }
+  }
+
+  &:hover .shine {
+    display: inline-block;
+    animation-play-state: running;
+  }
+
+  .content {
+    background: linear-gradient(to bottom, rgba(255,255,255,1) 0%, rgba(255,255,255,0.55) 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    &:before {
+      content: @interview-2-content;
+    }
+  }
+
+  .dropshadow {
+    &:before {
+      content:  @interview-3-content;
+      text-shadow: -1px 1px rgba(0, 0, 0, 0.2);
+    }
+  }
+
+  .icon {
+    background: linear-gradient(to bottom, rgba(255,255,255,1) 0%, rgba(245,178,205,1) 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+
+    &:before {
+      content:  @interview-3-content;
+    }
+  }
+}
+
+@keyframes shine {
+  0%{
+    background-position: 0 0;
+  }
+  100%{
+    background-position: 100% 100%;
+  }
+}
