@@ -1,6 +1,8 @@
 require('normalize.css');
 require('styles/App.css');
 
+const InterviewBadgeSVG = require('../images/badges/interview-hero.svg');
+
 import React from 'react';
 import { Link } from 'react-router';
 
@@ -24,6 +26,7 @@ class AppComponent extends React.Component {
           <li><BootcampBadge className="lg" /></li>
         </ul>
         <h1>Badges svg</h1>
+        <img height="64" width="64" src={InterviewBadgeSVG} />
         {this.props.children}
       </div>
     );
