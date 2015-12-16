@@ -1,2 +1,1 @@
-web: npm run serve:dist
-hero
+web: node express-server.js
