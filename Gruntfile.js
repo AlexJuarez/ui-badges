@@ -20,8 +20,11 @@ module.exports = function(grunt) {
           relativeFontPath: '/fonts'
         }
       }
+    },
+    clean: {
+      fonts: ['src/fonts/']
     }
   });
 
-  grunt.registerTask('default', ['webfont']);
+  grunt.registerTask('default', ['clean:fonts', 'webfont']);
 };

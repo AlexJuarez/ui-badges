@@ -1,21 +1,16 @@
 /* Base Application Styles */
-body {
-  color: #fff;
-  background: #222;
+.list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
 }
 
-.index img {
-  margin: 40px auto;
-  border-radius: 4px;
-  background: #fff;
-  display: block;
+.list:before, .list:after {
+  content: '';
+  display: table;
+  clear:both;
 }
 
-.index .notice {
-  margin: 20px auto;
-  padding: 15px 0;
-  text-align: center;
-  border: 1px solid #000;
-  border-width: 1px 0;
-  background: #666;
+.list li {
+  float: left;
 }

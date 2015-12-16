@@ -5,6 +5,7 @@ import React from 'react';
 import { Link } from 'react-router';
 
 import InterviewBadge from './badges/interview';
+import BootcampBadge from './badges/bootcamp-mentor';
 
 let yeomanImage = require('../images/yeoman.png');
 
@@ -12,14 +13,17 @@ class AppComponent extends React.Component {
   render() {
     return (
       <div className="index">
-        <img src={yeomanImage} alt="Yeoman Generator" />
-        <div className="notice">Please edit <code>src/components/Main.js</code> to get started!</div>
-        <ul>
-          <li><Link to="list">/list all</Link></li>
-          <li><Link to="list" query={{show: 'even'}}>/list even</Link></li>
-          <li><Link to="/">/home</Link></li>
+        <h1>Badges font (normal)</h1>
+        <ul className="list">
           <li><InterviewBadge /></li>
+          <li><BootcampBadge /></li>
         </ul>
+        <h1>Badges font (lg)</h1>
+        <ul className="list">
+          <li><InterviewBadge className="lg" /></li>
+          <li><BootcampBadge className="lg" /></li>
+        </ul>
+        <h1>Badges svg</h1>
         {this.props.children}
       </div>
     );

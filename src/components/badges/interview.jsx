@@ -1,11 +1,15 @@
 require('styles/badges/interview.less');
 
 import React from 'react';
+import classNames from 'classnames';
 
-class interviewBadge extends React.Component {
+class InterviewBadge extends React.Component {
   render() {
+    const classes = classNames(this.props.className,
+      'badge-interview');
+
     return (
-      <span className="badge-interview">
+      <span className={classes}>
         <span className="background" />
         <span className="shine" />
         <span className="content" />
@@ -16,4 +20,4 @@ class interviewBadge extends React.Component {
   }
 }
 
-export default interviewBadge;
+export default InterviewBadge;
