@@ -26,7 +26,7 @@
       host : "dev8604.prn1.facebook.com",
       ref  : "origin/master",
       repo : "https://alexjuarez:fatcats2c@github.com/AlexJuarez/ui-badges.git",
-      path : "/var/www/production",
+      path : "/var/www-pm2/production",
       "post-deploy" : "npm install ; pm2 startOrRestart ecosystem.json --env production"
     }
   }
