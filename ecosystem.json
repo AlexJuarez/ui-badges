@@ -1,0 +1,33 @@
+{
+  /**
+   * Application configuration section
+   * http://pm2.keymetrics.io/docs/usage/application-declaration/
+   */
+  apps : [
+
+    // First application
+    {
+      name      : "Test App",
+      script    : "express-server.js",
+      env_production : {
+        NODE_ENV: "production",
+        PORT: 3000
+      }
+    }
+  ],
+
+  /**
+   * Deployment section
+   * http://pm2.keymetrics.io/docs/usage/deployment/
+   */
+  deploy : {
+    production : {
+      user : "tall",
+      host : "dev8604.prn1.facebook.com",
+      ref  : "origin/master",
+      repo : "git@github.com:AlexJuarez/ui-badges.git",
+      path : "/var/www/production",
+      "post-deploy" : "npm install ; pm2 startOrRestart ecosystem.json --env production"
+    }
+  }
+}
