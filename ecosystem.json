@@ -27,7 +27,7 @@
       ref  : "origin/master",
       repo : "https://alexjuarez:fatcats2c@github.com/AlexJuarez/ui-badges.git",
       path : "/var/www-pm2/production",
-      "post-deploy" : "npm install ; pm2 startOrRestart ecosystem.json --env production"
+      "post-deploy" : "npm install --production; pm2 startOrRestart ecosystem.json --env production"
     }
   }
 }
