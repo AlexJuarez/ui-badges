@@ -33,15 +33,15 @@ class AppComponent extends React.Component {
         </ul>
         <h1>Badges svg 32px</h1>
         <ul className="list">
-          <li className="shine star"><img height="32" width="32" src={interviewBadgeSVG} /></li>
-          <li className="shine circle"><img height="32" width="32" src={bugPatrolBadgeSVG} /></li>
-          <li className="shine circle"><img height="32" width="32" src={wikiContribBadgeSVG} /></li>
-          <li className="shine circle"><img height="32" width="32" src={fiveOfficesBadgeSVG} /></li>
-          <li className="shine circle"><img height="32" width="32" src={tenOfficesBadgeSVG} /></li>
-          <li className="shine circle"><img height="32" width="32" src={mobileBPBadgeSVG} /></li>
-          <li className="shine circle"><img height="32" width="32" src={interviewerBadgeSVG} /></li>
-          <li className="shine circle"><img height="32" width="32" src={hackerBadgeSVG} /></li>
-          <li className="shine circle"><img height="32" width="32" src={i18nBadgeSVG} /></li>
+          <li className="shine sm star"><img height="32" width="32" src={interviewBadgeSVG} /></li>
+          <li className="shine sm circle"><img height="32" width="32" src={bugPatrolBadgeSVG} /></li>
+          <li className="shine sm circle"><img height="32" width="32" src={wikiContribBadgeSVG} /></li>
+          <li className="shine sm circle"><img height="32" width="32" src={fiveOfficesBadgeSVG} /></li>
+          <li className="shine sm circle"><img height="32" width="32" src={tenOfficesBadgeSVG} /></li>
+          <li className="shine sm circle"><img height="32" width="32" src={mobileBPBadgeSVG} /></li>
+          <li className="shine sm circle"><img height="32" width="32" src={interviewerBadgeSVG} /></li>
+          <li className="shine sm circle"><img height="32" width="32" src={hackerBadgeSVG} /></li>
+          <li className="shine sm circle"><img height="32" width="32" src={i18nBadgeSVG} /></li>
         </ul>
         {this.props.children}
       </div>
