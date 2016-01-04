@@ -8,6 +8,7 @@ const wikiContribBadgeSVG = require('../images/badges/wiki-contributor.svg');
 const fiveOfficesBadgeSVG = require('../images/badges/5-offices.svg');
 const tenOfficesBadgeSVG = require('../images/badges/10-offices.svg');
 const mobileBPBadgeSVG = require('../images/badges/mobile-bug-patrol.svg');
+const mentorBadgeSVG = require('../images/badges/mentor.svg');
 const interviewerBadgeSVG = require('../images/badges/interviewer.svg');
 const hackerBadgeSVG = require('../images/badges/hack-presentor.svg');
 const i18nBadgeSVG = require('../images/badges/i18n.svg');
@@ -27,6 +28,7 @@ class AppComponent extends React.Component {
           <li className="shine circle"><img height="64" width="64" src={fiveOfficesBadgeSVG} /></li>
           <li className="shine circle"><img height="64" width="64" src={tenOfficesBadgeSVG} /></li>
           <li className="shine circle"><img height="64" width="64" src={mobileBPBadgeSVG} /></li>
+          <li className="shine circle"><img height="64" width="64" src={mentorBadgeSVG} /></li>
           <li className="shine circle"><img height="64" width="64" src={interviewerBadgeSVG} /></li>
           <li className="shine circle"><img height="64" width="64" src={hackerBadgeSVG} /></li>
           <li className="shine circle"><img height="64" width="64" src={i18nBadgeSVG} /></li>
@@ -39,6 +41,7 @@ class AppComponent extends React.Component {
           <li className="shine sm circle"><img height="32" width="32" src={fiveOfficesBadgeSVG} /></li>
           <li className="shine sm circle"><img height="32" width="32" src={tenOfficesBadgeSVG} /></li>
           <li className="shine sm circle"><img height="32" width="32" src={mobileBPBadgeSVG} /></li>
+          <li className="shine sm circle"><img height="32" width="32" src={mentorBadgeSVG} /></li>
           <li className="shine sm circle"><img height="32" width="32" src={interviewerBadgeSVG} /></li>
           <li className="shine sm circle"><img height="32" width="32" src={hackerBadgeSVG} /></li>
           <li className="shine sm circle"><img height="32" width="32" src={i18nBadgeSVG} /></li>
