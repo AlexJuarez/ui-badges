@@ -1,32 +1,36 @@
 require('normalize.css');
 require('styles/App.css');
+require('styles/badges.less');
 
-const InterviewBadgeSVG = require('../images/badges/interview-hero.svg');
+const interviewBadgeSVG = require('../images/badges/interview-hero.svg');
+const bugPatrolBadgeSVG = require('../images/badges/bug-patrol.svg');
+const wikiContribBadgeSVG = require('../images/badges/wiki-contributor.svg');
+const fiveOfficesBadgeSVG = require('../images/badges/5-offices.svg');
+const tenOfficesBadgeSVG = require('../images/badges/10-offices.svg');
+const mobileBPBadgeSVG = require('../images/badges/mobile-bug-patrol.svg');
+const interviewerBadgeSVG = require('../images/badges/interviewer.svg');
+const hackerBadgeSVG = require('../images/badges/hack-presentor.svg');
+const i18nBadgeSVG = require('../images/badges/i18n.svg');
 
 import React from 'react';
 import { Link } from 'react-router';
-
-import InterviewBadge from './badges/interview';
-import BootcampBadge from './badges/bootcamp-mentor';
-
-let yeomanImage = require('../images/yeoman.png');
 
 class AppComponent extends React.Component {
   render() {
     return (
       <div className="index">
-        <h1>Badges font (normal)</h1>
-        <ul className="list">
-          <li><InterviewBadge /></li>
-          <li><BootcampBadge /></li>
-        </ul>
-        <h1>Badges font (lg)</h1>
-        <ul className="list">
-          <li><InterviewBadge className="lg" /></li>
-          <li><BootcampBadge className="lg" /></li>
-        </ul>
         <h1>Badges svg</h1>
-        <img height="64" width="64" src={InterviewBadgeSVG} />
+        <ul className="list">
+          <li className="shine star"><img height="64" width="64" src={interviewBadgeSVG} /></li>
+          <li className="shine circle"><img  height="64" width="64" src={bugPatrolBadgeSVG} /></li>
+          <li className="shine circle"><img  height="64" width="64" src={wikiContribBadgeSVG} /></li>
+          <li className="shine circle"><img  height="64" width="64" src={fiveOfficesBadgeSVG} /></li>
+          <li className="shine circle"><img  height="64" width="64" src={tenOfficesBadgeSVG} /></li>
+          <li className="shine circle"><img  height="64" width="64" src={mobileBPBadgeSVG} /></li>
+          <li className="shine circle"><img  height="64" width="64" src={interviewerBadgeSVG} /></li>
+          <li className="shine circle"><img  height="64" width="64" src={hackerBadgeSVG} /></li>
+          <li className="shine circle"><img  height="64" width="64" src={i18nBadgeSVG} /></li>
+        </ul>
         {this.props.children}
       </div>
     );

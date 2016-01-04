@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 19.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 64 64" style="enable-background:new 0 0 64 64;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:#E2AF0B;}
+	.st1{fill:#C09509;}
+	.st2{fill:url(#XMLID_5_);fill-opacity:0.1;}
+	.st3{fill:url(#XMLID_6_);}
+	.st4{fill:#FFFFFF;}
+	.st5{fill:#808080;}
+	.st6{fill:#FD8724;}
+</style>
+<path id="XMLID_1_" class="st0" d="M32,0c17.7,0,32,14.3,32,32S49.7,64,32,64S0,49.7,0,32S14.3,0,32,0z"/>
+<path id="XMLID_12_" class="st1" d="M64,32c0,17.7-14.3,32-32,32S0,49.7,0,32c0,0,4.4,29.9,32,29.9S64,32,64,32z"/>
+<linearGradient id="XMLID_5_" gradientUnits="userSpaceOnUse" x1="32" y1="64" x2="32" y2="-9.094947e-13">
+	<stop  offset="0" style="stop-color:#FFFFFF;stop-opacity:0.75"/>
+	<stop  offset="1" style="stop-color:#FFFFFF"/>
+</linearGradient>
+<path id="XMLID_3_" class="st2" d="M32,0c17.7,0,32,14.3,32,32S49.7,64,32,64S0,49.7,0,32S14.3,0,32,0z"/>
+<linearGradient id="XMLID_6_" gradientUnits="userSpaceOnUse" x1="32" y1="61" x2="32" y2="3">
+	<stop  offset="0" style="stop-color:#FFFFFF;stop-opacity:0.8"/>
+	<stop  offset="1" style="stop-color:#FFFFFF"/>
+</linearGradient>
+<path id="XMLID_7_" class="st3" d="M61,32c0,16-13,29-29,29S3,48,3,32S16,3,32,3S61,16,61,32z M32,5.1C17.1,5.1,5.1,17.1,5.1,32
+	s12,26.9,26.9,26.9s26.9-12,26.9-26.9S46.9,5.1,32,5.1z"/>
+<g>
+	<g>
+		<path class="st4" d="M45.7,15V44c0,0.7-0.6,1.4-1.4,1.4H19.8c-0.7,0-1.4-0.6-1.4-1.4V14.9c0-0.7,0.6-1.4,1.4-1.4h24.5
+			C45,13.6,45.7,14.2,45.7,15z M43.5,43.3V15.7H20.6v27.6H43.5z"/>
+	</g>
+	<g>
+		<g>
+			<path class="st4" d="M22.9,50.5c-0.3,0-0.6-0.1-1-0.4c-0.5-0.5-0.5-1.4,0-1.9l4-4.1c0.5-0.5,1.4-0.5,1.9,0c0.5,0.5,0.5,1.4,0,1.9
+				l-4,4.1C23.6,50.4,23.2,50.5,22.9,50.5z"/>
+		</g>
+		<g>
+			<path class="st4" d="M41.1,50.5c-0.3,0-0.6-0.1-1-0.4l-3.8-4c-0.5-0.5-0.4-1.4,0-1.9c0.5-0.5,1.4-0.4,1.9,0l3.8,4
+				c0.5,0.5,0.4,1.4,0,1.9C41.8,50.4,41.4,50.5,41.1,50.5z"/>
+		</g>
+	</g>
+</g>
+<g>
+	<path class="st5" d="M31.4,24.8l-7.2,7v-7.3l7.2-7V24.8z M39.9,27.6l-7.2,7v7.3l7.2-7V27.6z M24.2,41.9l7.3-7.3h-7.3V41.9z"/>
+	<polygon class="st4" points="32.7,26.1 39.9,26.1 32.7,33.4 	"/>
+	<polygon class="st6" points="31.4,33.4 24.2,33.4 31.4,26.1 	"/>
+</g>
+</svg>
